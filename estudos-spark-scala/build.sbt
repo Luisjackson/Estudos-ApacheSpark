@@ -1,11 +1,9 @@
-scalaVersion := "3.8.4"
+scalaVersion := "2.13.13"
 
 lazy val root = rootProject
   .settings(
     name := "estudos-spark-scala",
     libraryDependencies ++= Seq(
-      //You can add library dependencies here, for example,
-      //"org.scalatest" %% "scalatest" % "3.2.19" % Test,
-      //"org.scalameta" %% "munit" % "1.2.3" % Test
+      "org.apache.spark" %% "spark-sql" % "3.5.1"
     )
   )
