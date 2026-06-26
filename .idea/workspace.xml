@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="377a6d7b-ca97-45b9-93b6-52f380a388e7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/luis.santos/Documents/Programacao-com-Scala/Estudos-ApacheSpark" value="3FdSQpsv29vYzoJlAEGllqO65IC" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="19" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Luisjackson&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Luisjackson/Estudos-ApacheSpark.git&quot;,
+    &quot;accountId&quot;: &quot;bc49d0ee-2768-4787-9bfb-b364e189a013&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0001889271531073" />
+      <entry key="MS500" value="1.2210458339672594" />
+      <entry key="S2" value="2.400526188171577" />
+      <entry key="S5" value="3.191629676624185" />
+      <entry key="S10" value="3.5602875841326505" />
+      <entry key="S30" value="3.844679176016835" />
+      <entry key="S60" value="3.921187459381691" />
+      <entry key="M2" value="3.9603011197735154" />
+      <entry key="M5" value="3.984049626889825" />
+      <entry key="M10" value="3.992012960021829" />
+      <entry key="M15" value="3.9946726688762824" />
+      <entry key="M30" value="3.997335014606674" />
+      <entry key="H1" value="3.998667177171164" />
+      <entry key="H2" value="3.99933350603074" />
+      <entry key="H4" value="3.9996667323739334" />
+      <entry key="D1" value="3.999944452528559" />
+      <entry key="W1" value="3.9999920645767193" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="3.2675342814467247E-25" />
+      <entry key="MS500" value="1.2671966920332243E-5" />
+      <entry key="S2" value="0.0596638133837323" />
+      <entry key="S5" value="0.3238056355949547" />
+      <entry key="S10" value="0.569039221490887" />
+      <entry key="S30" value="0.8286683157346719" />
+      <entry key="S60" value="0.9103122078356809" />
+      <entry key="M2" value="0.9541028287536311" />
+      <entry key="M5" value="0.9813819667156994" />
+      <entry key="M10" value="0.990647246357501" />
+      <entry key="M15" value="0.9937550709486619" />
+      <entry key="M30" value="0.9968726453006231" />
+      <entry key="H1" value="0.9984350981914764" />
+      <entry key="H2" value="0.9992172427412753" />
+      <entry key="H4" value="0.9996085447520319" />
+      <entry key="D1" value="0.9999347468146524" />
+      <entry key="W1" value="0.999990677855676" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.713154194085E-4" />
+      <entry key="MS500" value="0.26150496138198415" />
+      <entry key="S2" value="1.6781505467678435" />
+      <entry key="S5" value="2.9783330442590086" />
+      <entry key="S10" value="3.7874159021922407" />
+      <entry key="S30" value="4.536422514778378" />
+      <entry key="S60" value="4.759603147641681" />
+      <entry key="M2" value="4.877547560701236" />
+      <entry key="M5" value="4.95046438726451" />
+      <entry key="M10" value="4.975138587737436" />
+      <entry key="M15" value="4.983404836469751" />
+      <entry key="M30" value="4.991691951950847" />
+      <entry key="H1" value="4.99584335528176" />
+      <entry key="H2" value="4.997921021951346" />
+      <entry key="H4" value="4.998960346988726" />
+      <entry key="D1" value="4.999826701716673" />
+      <entry key="W1" value="4.999975242544398" />
+    </decayedShown>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3FdSQpsv29vYzoJlAEGllqO65IC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MeuPrimeiroSparkApp.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="MeuPrimeiroSparkApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MeuPrimeiroSparkApp" />
+      <module name="Estudos-ApacheSpark" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MeuPrimeiroSparkApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="377a6d7b-ca97-45b9-93b6-52f380a388e7" name="Changes" comment="" />
+      <created>1782403440149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782403440149</updated>
+      <workItem from="1782403441809" duration="3626000" />
+      <workItem from="1782499453628" duration="1169000" />
+      <workItem from="1782500665697" duration="305000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
