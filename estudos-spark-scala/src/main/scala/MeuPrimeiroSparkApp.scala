@@ -1,5 +1,6 @@
 import org.apache.spark.sql._
 import org.apache.log4j._
+import java.lang.Thread
 
 object MeuPrimeiroSparkApp {
 
@@ -7,24 +8,25 @@ object MeuPrimeiroSparkApp {
 
   def main(args: Array[String]): Unit = {
 
-
     val spark = SparkSession
       .builder()
       .appName("MeuPrimeiroSparkApp")
       .master("local[*]")
       .getOrCreate()
 
-    val dadosRaw = spark.read
-      .option("header", "true" ) // Existe um cabeçalho
-      .option("inferSchema", "true") // Inferir o tipo das colunas
+    val df = spark.read
+      .option("header", "true")
+      .option("inferSchema", "true")
       .csv("dados/entrada/funcionarios_10k.csv")
 
-    val tamanhoDadosRaw = dadosRaw.count()
+    df.write.mode("overwrite").parquet("dados/saida")
 
-    println("O arquivo tem : " + tamanhoDadosRaw + " linhas")
+    println("=== Acesse http://localhost:4040 no seu navegador ===") // Acessar UI do Spark no navegador
+    Thread.sleep(600000)
+
     spark.stop()
 
-
   }
+
 
 }
