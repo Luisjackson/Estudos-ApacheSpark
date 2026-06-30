@@ -45,3 +45,5 @@ build/
 
 ### Scala ###
 .bsp/
+
+estudos-spark-scala/dados/entrada/
