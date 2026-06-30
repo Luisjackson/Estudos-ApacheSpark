@@ -10,16 +10,23 @@ object ExercicioJoin {
       .getOrCreate()
 
 
-    val df = spark.read
-      .option("header", "true")
-      .option("inferSchema", "true")
-      .csv("dados/entrada/chefes.csv")
+    val dfFuncionarios = spark.read
+      .parquet("dados/entrada/funcionarios_10k.parquet")
 
-    df.write.mode("overwrite").parquet("dados/entrada/chefes.parquet")
+    val dfDepartamentos = spark.read
+      .parquet("dados/entrada/departamentos.parquet")
 
-    val tamanho = df.count()
+    val dfChefes = spark.read
+      .parquet("dados/entrada/chefes.parquet")
 
-    println(tamanho)
+
+    val tamanhosDfs = Map(
+      "Funcionario" -> s"${dfFuncionarios.count()}",
+      "Chefe" -> s"${dfChefes.count()}",
+      "Departamento" -> s"${dfDepartamentos.count()}"
+    )
+
+    println(tamanhosDfs)
 
 
     spark.stop()
