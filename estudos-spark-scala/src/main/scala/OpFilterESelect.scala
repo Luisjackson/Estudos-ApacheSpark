@@ -45,7 +45,7 @@ object OpFilterESelect {
     funcionariosForaDoTI.select(col("nome"), col("departamento"), col("salario")).show(5)
 
     val funcVendasERh = df.filter((col("departamento") === "Vendas" || col("departamento") === "RH") && col("idade") < 30)
-    
+
     funcVendasERh.drop("id").show(5)
 
 
