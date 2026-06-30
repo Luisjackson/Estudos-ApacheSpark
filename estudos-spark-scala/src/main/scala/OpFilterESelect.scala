@@ -19,6 +19,9 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 
 object OpFilterESelect {
+
+  case class Funcionario(id: Long, nome: String, departamento: String, salario: Double, idade: Int)
+
   def main(args: Array[String]): Unit = {
 
     val spark = SparkSession
@@ -27,20 +30,23 @@ object OpFilterESelect {
       .master("local[*]")
       .getOrCreate()
 
+    import spark.implicits._
+
     val df = spark.read
       .option("header", "true")
       .option("inferSchema", "true")
       .csv("dados/entrada/funcionarios_10k.csv")
+      .as[Funcionario]
 
     val dfCinquentao = df.filter(col("idade") > 50)
-    dfCinquentao.select(col("nome"), col("idade")).show()
+    dfCinquentao.select(col("nome"), col("idade")).show(5)
 
     val funcionariosForaDoTI = df.filter(col("departamento") =!= "TI" && col("salario") >= 8000)
-    funcionariosForaDoTI.select(col("nome"), col("departamento"), col("salario")).show()
+    funcionariosForaDoTI.select(col("nome"), col("departamento"), col("salario")).show(5)
 
     val funcVendasERh = df.filter((col("departamento") === "Vendas" || col("departamento") === "RH") && col("idade") < 30)
-
-    funcVendasERh.drop(col("id")).show()
+    
+    funcVendasERh.drop("id").show(5)
 
 
     spark.stop()
