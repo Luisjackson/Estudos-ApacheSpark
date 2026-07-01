@@ -38,8 +38,8 @@ object Exercicio2Join {
       .parquet("dados/entrada/chefes.parquet")
 
     val dfFinal = dfFuncionarios
-      .join(dfDepartamentos, dfFuncionarios("id_departamento") === dfDepartamentos("id_depto"), "left")
-      .join(dfChefes, dfFuncionarios("id_departamento") === dfChefes("id_depto"), "left")
+      .join(broadcast(dfDepartamentos), dfFuncionarios("id_departamento") === dfDepartamentos("id_depto"), "left")
+      .join(broadcast(dfChefes), dfFuncionarios("id_departamento") === dfChefes("id_depto"), "left")
 
 
 //    println("Departamento")
@@ -56,6 +56,7 @@ object Exercicio2Join {
     dfFinal.filter(col("nome_chefe") =!= "NULL")
       .select(col("nome"), col("salario"), col("nome_depto"), col("nome_chefe")).show(5)
 
+    dfFinal.explain()
 
     spark.stop()
 
